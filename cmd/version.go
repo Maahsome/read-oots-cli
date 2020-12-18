@@ -21,6 +21,18 @@ import (
 	"github.com/spf13/cobra"
 )
 
+// These are in support of goreleaser, which auto-populates main. variables.
+var (
+	// Version - Receive from main
+	Version = "dev"
+	// Commit - Receive from main
+	Commit = "none"
+	// Date - Receive from main
+	Date = "unknown"
+	// BuiltBy - Receive from main
+	BuiltBy = "unknown"
+)
+
 // versionCmd represents the version command
 var versionCmd = &cobra.Command{
 	Use:   "version",
@@ -28,7 +40,7 @@ var versionCmd = &cobra.Command{
 	Long:  `Display the application version`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("{\"VersionInfo\": {")
-		fmt.Println(fmt.Sprintf("\"SemVer\": \"%s\", \"GitCommit\": \"%s\", \"BuildDate\": \"%s\"}", main.version, main.commit, main.date))
+		fmt.Println(fmt.Sprintf("\"SemVer\": \"%s\", \"GitCommit\": \"%s\", \"BuildDate\": \"%s\", \"BuiltBy\": \"%s\"}", Version, Commit, Date, BuiltBy))
 		fmt.Println("}")
 	},
 }
