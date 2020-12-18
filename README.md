@@ -3,7 +3,7 @@
 Giant in the Playground Games - Order of the Stick terminal comic reader.  This is
 one of those tools that is really just written for myself.  I'm in a terminal window
 every day, all day, so having the latest comic display when I open a new window is
-a good way to keep up.  I had falled behind by more than a thousand strips.
+a good way to keep up.  I had falled behind by close to 600 strips.
 
 Please visit [Order of the Stick](https://www.giantitp.com/comics/oots.html) comic strip
 and if you enjoy the content please consider helping keep Rich free to entertain us.
