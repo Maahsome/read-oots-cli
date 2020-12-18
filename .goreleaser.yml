@@ -24,10 +24,10 @@ changelog:
   sort: asc
   filters:
     exclude:
-      - '^docs:'
-      - '^test:'
-      - '^admin:'
-      - '^clean:'
+      - ': docs:'
+      - ': test:'
+      - ': admin:'
+      - ': clean:'
 release:
   github:
     owner: maahsome
@@ -44,7 +44,6 @@ brews:
     license: "MIT"
     homepage: https://github.com/Maahsome/read-oots-cli
     description: "Keep up on OotS comics and never leave the terminal window."
-    skip_upload: true
     dependencies:
       - name: mdcat
     test: |
