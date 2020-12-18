@@ -17,6 +17,13 @@ package main
 
 import "github.com/maahsome/read-oots-cli/cmd"
 
+var (
+	version = "dev"
+	commit  = "none"
+	date    = "unknown"
+	builtBy = "unknown"
+)
+
 func main() {
 	cmd.Execute()
 }
