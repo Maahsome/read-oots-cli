@@ -91,6 +91,9 @@ func getStripNumber(num string, next bool, prev bool) string {
 	}
 
 	num = getLastReadStrip()
+	if len(num) == 0 {
+		return "1"
+	}
 	i, converr := strconv.Atoi(num)
 	if converr != nil {
 		logrus.Warn("Why couldn't I convert this to a number? ", num)
