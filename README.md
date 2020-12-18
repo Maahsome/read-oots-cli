@@ -8,7 +8,7 @@ a good way to keep up.  I had falled behind by more than a thousand strips.
 Please visit [Order of the Stick](https://www.giantitp.com/comics/oots.html) comic strip
 and if you enjoy the content please consider helping keep Rich free to entertain us.
 
-[Patreon Subscription to OOTS](https://www.patreon.com/oots)
+[Patreon Subscription to OotS](https://www.patreon.com/oots)
 
 
 ## Dependencies
