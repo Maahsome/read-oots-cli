@@ -11,6 +11,12 @@ and if you enjoy the content please consider helping keep Rich free to entertain
 [Patreon Subscription to OotS](https://www.patreon.com/oots)
 
 
+## Install via Brew
+
+```bash
+brew install maahsome/utility/read-oots-cli
+```
+
 ## Dependencies
 
 There are a few dependencies.  [mdcat](https://github.com/lunaryorn/mdcat) is used to display the comic in the
